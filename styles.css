@@ -4,11 +4,51 @@ h1 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: left;
     font-weight: 600;
-    color: #ff2d22;
+    color: black;
+    border-width: 15px;
+    border-style: double;
+    border-color:#C8102E;
+    display: block;
+    padding: 10px;
+    background-color: #FAA0A0    ;
+    margin: 20px 30px;
+    text-align: center;
 }
 
-li {
-    font-size: 25px;
-    font-family: 'Courier New', Courier, monospace;
-    color: rgb(14, 190, 14);
+h1:hover{
+    background-color: #b8d8be;
+}
+
+button{
+    font-size: 30px;
+    background-color: #b8d8be;
+    padding: 20px;
+    border-style: groove;
+    border-width: 7px;
+    border-color: #006341;
+    border-radius: 200px;
+    display: block;
+    margin: 20px auto;
+}
+
+button:hover {
+    background-color: #FAA0A0;
+    transition: 0.5s;
+    background-clip: border-box;
+}
+
+img {
+    width: 300px;
+    display: block;
+    margin: auto
+}
+
+body {
+    border-width: 80px 50px;
+    border-style: ridge double  ;
+    border-top-color: #C8102E;
+    border-right-color: #006341;
+    border-bottom-color: #C8102E;
+    border-left-color: #006341;
+    margin: 2% 15%;
 }
